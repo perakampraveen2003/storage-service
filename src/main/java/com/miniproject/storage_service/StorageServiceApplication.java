@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StorageServiceApplication {
 
 	public static void main(String[] args) {
+		System.out.println("welcome");
 		SpringApplication.run(StorageServiceApplication.class, args);
 	}
 
