@@ -9,6 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class StorageServiceApplication {
 
 	public static void main(String[] args) {
+		System.out.println("welcome");
 		SpringApplication.run(StorageServiceApplication.class, args);
 	}
 
